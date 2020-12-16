@@ -1,0 +1,55 @@
+:root {
+    --primery-color: teal;   
+    --chalk-name:gray;
+    --font-family: 'Work Sans', sans-serif;
+}
+
+.nav{
+    background-color: var(--primery-color);
+    text-align: right;
+    padding: 3rem 5rem;
+    margin-bottom: 5rem;
+    border-bottom-left-radius: 2rem ;  
+   
+}
+    
+
+.nav-link{
+    display: inline;
+    padding: 1rem;
+    color: white;
+    animation-duration: 3s;
+    animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from{
+        
+            margin-left: 10%;
+        
+        }
+    }
+    {
+       
+        
+      }
+      .header{
+        display: block;
+        text-align: center;
+      }
+      .header img{
+          max-height: 300px;
+         
+      }
+      .h1-name{
+          color: var(--chalk-name);
+          padding: 3rem 2rem;
+          font-family: var(--font-family);
+          font-size: 2rem;
+      }
+      .h1-special{
+          color: var(--primery-color);
+          
+      }
+
+      

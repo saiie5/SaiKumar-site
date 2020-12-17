@@ -2,6 +2,10 @@
     --primery-color: teal;   
     --chalk-name:gray;
     --font-family: 'Work Sans', sans-serif;
+    --whole-color:rgb(188, 223, 205);
+}
+*{
+    background-color: var(--whole-color);
 }
 
 .nav{
@@ -17,9 +21,10 @@
 .nav-link{
     display: inline;
     padding: 1rem;
-    color: white;
     animation-duration: 3s;
     animation-name: slidein;
+    text-decoration: none;
+    border-radius: 1rem;
       }
       
       @keyframes slidein {
@@ -28,11 +33,8 @@
             margin-left: 10%;
         
         }
+         
     }
-    {
-       
-        
-      }
       .header{
         display: block;
         text-align: center;
@@ -41,6 +43,9 @@
           max-height: 300px;
          
       }
+      
+
+      
       .h1-name{
           color: var(--chalk-name);
           padding: 3rem 2rem;
@@ -52,4 +57,25 @@
           
       }
 
+      .upper-container{
+          text-align: center;
+          font-size: 1.5rem;
+          font-family: sans-serif;
+          text-decoration: underline;
+          line-height: 4rem;   
+          padding: 4rem;
+         }
+         
+          
+
       
+      .middile-container{
+          font-family: var(--font-family);
+          font-size: 1.5rem;
+          text-align: center;
+      }
+      .middile-container >h2{
+          text-decoration: underline;
+          
+      }
+

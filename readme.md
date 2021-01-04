@@ -1,7 +1,0 @@
-# MY PORTFOLIO
-
-    SKILIS I LEARNED
-    *HTML
-    *CSS
-    *JAVA SCRIPT
-    *REACT JS

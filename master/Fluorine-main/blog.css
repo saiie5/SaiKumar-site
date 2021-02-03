@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(245,245,245);
+}
+.Blog_header{
+    display: grid;
+    background-color:white;
+    grid-template-columns: 60% 10% 10% 10%;
+    height: 60px;
+}
+    
+    .hHMiddle-1-button-1 {
+        width: 100px;
+        height: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #fec;
+        font-size: 16px;
+        text-shadow: 0 1px 6px #e9895e;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #fa824c;
+        border-radius: 4px;
+        background-color: #fa824c;
+        text-decoration: none;
+        box-shadow: -3px 1px 9px -4px rgba(204, 115, 75, 0.65);
+        margin-left: 300px;
+        padding-left: 10px;
+        
+    
+
+    
+    
+
+}
+.Blog_header a{
+    margin-top: 10%;
+    text-decoration: none;
+    background-color:white;
+
+    
+}
+#Blog-header-img{
+ height: 40px;
+ margin-left: 20%;
+ margin-top: 5px;
+ background-color:white;
+
+ 
+}
+section{
+    display: grid;
+    grid-template-columns: 30%  70%;
+}
+
+#side-max{
+    margin: 10%;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    font-family:'Open Sans', sans-serif ;
+    float: left;
+    height: 420px;
+    background-color: white;
+    
+
+}
+#firstpair{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin:20px;
+}
+#firstpair img{
+    width: 230px;
+    margin: 20px;
+}
+#firstpair p{
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #Blog-header-img{
+        height: 20px;
+    }
+    .Blog_header{
+
+        display: grid;
+        background-color:white;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 40% 40% 40% ;
+        height: 60px;
+        
+
+    }
+    section{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    #side-max{
+        margin-top: 60px;
+        width: 300px;
+        
+    }
+    #pair-container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 30% 30%;
+    
+    
+    }
+    .firstpair{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .hHMiddle-1-button-1{
+        margin-left: 0px;
+    }
+    
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   section{
+       display: grid;
+       grid-template-columns: 100%;
+
+   }
+   .firstpair{
+       display: grid;
+       grid-template-columns: 100%;
+   }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section{
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .firstpair{
+        display: grid;
+        grid-template-columns: 45% 60%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

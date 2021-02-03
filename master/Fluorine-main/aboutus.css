@@ -1,0 +1,217 @@
+@media screen and (max-width: 600px) {
+    .flex-container5 ,.flex-container2,.flex-container3  {
+      flex-direction: column;
+      
+    }
+  }
+
+
+    
+
+    #topdiv {
+        max-width: 1300px;
+        max-height: 50px;
+        padding-left: 7.2%;
+        padding-top: 2%;
+    }
+     #topdiv img {
+       max-width: 150px;
+    }
+    .flex-container1 {
+        display: flex;
+        margin-left: 27%;
+    }
+    .flex-container1 > div {
+    color: grey;
+    margin: 3.2%;
+    text-align: center;
+    }
+    #forheading {
+        text-align: center;
+        font-size: 35px;
+    }
+    .content {
+        max-width: 1000px;
+        font-size: 20px;
+        margin-left: 20%;
+    }
+    .content div {
+        margin-top: 2%;
+    }
+    .flex-container2 {
+        display: flex;
+       max-width: 1000px; 
+        flex-wrap: wrap;
+        margin-left: 20%;
+        max-width: 100%;
+    }
+    .flex-container2 div {
+        margin: 5% 8%;
+        max-width: 150px;
+        height: 150px;
+        line-height: 8%;
+    }
+    .flex-container2 img {
+       
+        max-width: 120px;
+        height: 120px;
+        border-radius: 4.2%;
+    }
+    .flex-container3 {
+        display: flex;
+        max-width: 1300px;
+        flex-wrap: wrap;
+        margin-left: auto;
+    }
+    .flex-container3 div {
+        max-width: 250px;
+        max-height: 150px;
+        margin:2% ;
+        line-height: 4%px;
+        text-align: center;
+    }
+    .flex-container3 img {
+       max-width: 22%;
+    }
+    .flex-container4 {
+        display: flex;
+        max-width: 700px;
+        flex-direction: column;
+        margin-left: 30%;
+        gap: 30px;
+        font-size: 20px;
+    }
+    .flex-container4 p {
+        font-weight: 700;
+    }
+    .fund_and_inv {
+        text-align: center;
+        float: left;
+        max-width: 600px;
+        margin-left: auto;
+        margin-top: 8%;
+    }
+    .fund_and_inv img {
+        float: left;
+        max-width: 100px;
+        margin-left: 15%
+
+    }
+    .flex-container5 {
+        display: flex;
+        max-width: 700px;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin-left: 30%;
+
+    }
+    .flex-container5 div {
+        max-width: 300px;
+        height: 400px;
+        border: 1px solid blue;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+    .flex-container5 img {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .flex-container5 p {
+        margin: 10px;
+    }
+    .grid-container {
+        display: grid;
+        max-width: 58%;
+        height: 550px;
+        margin-left: 20%;
+        grid-template-columns: auto auto auto auto auto ;
+        grid-gap: 15px;
+        padding: 10px;
+    }
+    .grid-container > div {     
+    background-size: cover;
+    border-radius: 5px;   
+    }
+    
+    .item1 {
+        grid-area: 1/1/3/3;
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5e3b4ec324ecc36709449cae_Screen%20Shot%202020-02-05%20at%203.24.18%20PM-p-500.png");
+    
+    }
+    .item3 {
+        grid-area: 1/4/ span 1/ span 2;
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5ee452c8add438f87f2b1a30_Screen%20Shot%202020-06-12%20at%209.13.43%20PM-p-500.png");
+        
+    }
+    .item5 {
+        grid-area: 2/4/ span 3/ span 2;
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5ee459b61f08214637bf895f_Screen%20Shot%202020-06-12%20at%209.44.27%20PM-p-500.png");
+        
+    }
+    .item6 {
+        height: 75%;
+        grid-area: 3/1/ span 2 / span 1;
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5ee45a3dba95a622251e8799_Screen%20Shot%202020-06-12%20at%209.46.41%20PM-p-500.png");
+        
+        
+    }
+    .item7 {
+        grid-area: 3/2/ span 2/ span 1;
+        height: 75%;
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5ee45c67626ee340d9e147fa_Screen%20Shot%202020-06-12%20at%209.55.54%20PM-p-500.png");
+        
+    }
+    .item8 {
+        grid-area: 3/3/ span 2/ span 1;
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5ee45b181829ab69ad437d30_Screen%20Shot%202020-06-12%20at%209.50.08%20PM-p-500.png");
+        
+    }
+    .item2 {
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5e45dd5bfb3c1836d289b9e0_Screen%20Shot%202020-02-13%20at%203.35.35%20PM-p-500.png");
+        
+        
+    }
+    .item4 {
+        background-image: url("https://assets.website-files.com/5d55f1425cb6b7a18aa77528/5e45e0d1f236a85ef78b5990_Screen%20Shot%202020-02-13%20at%203.50.11%20PM-p-500.png");
+    }
+    .return {
+        max-width: 800px;
+        height: 100px;
+        background-color: #fec;
+        margin-left: 5%;
+        padding-left: 37%;
+        padding-top: 5%;
+    }
+    .come {
+        width: 30%;
+        height: 50px;
+        border: 1px solid orange;
+        color: orange;
+        text-align: center;
+        padding: 1%;
+        
+    }
+    .changecolor {
+        background-color: #fff6cc;
+        color: #fab74c;
+    }
+    .changecolor2 {
+        background-color: skyblue;
+        color: dodgerblue;
+    }
+
+    .fC-4_heading {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
+
+    
+
+    .flex-container4 > div > div:nth-child(2){
+        font-family: 'Roboto Slab', serif;
+
+    }

@@ -1,0 +1,60 @@
+*{
+background-color:rgb(133, 82, 82);
+}
+#main{
+    display: block;
+    text-align: center;
+
+}
+nav{
+    background-color: white;
+    height: 100px;
+    
+}
+nav h1{
+    background-color: white;
+    color:rgb(165, 36, 36) ;
+    font-weight: 60px;
+    
+}
+#navleft{
+    background-color: white;
+    float: right;
+    margin: 10px;
+    
+    
+}
+
+#project{
+    
+    text-align: left;
+    margin-left: 320px;
+    height: 130px;
+    background-color: white;
+    
+
+
+}
+#text{
+    background-color: white;
+    color:rgb(54, 25, 187);
+    margin-left: 10px;
+    
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+
+    
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+
+
+

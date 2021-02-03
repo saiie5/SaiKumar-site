@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body > div {
+    height: 100%;
+}
+
+/* left part */
+.left {
+    width: 37%;
+    background-color: #fec;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftNav {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.leftIcon {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftIcon img{
+    width: 450px;
+    height: 288px;
+}
+
+
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right1 {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.28571429em;
+    color: rgba(0,0,0,.87);
+    font-size: 1.71428571em;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.right2 {
+    width: 300px;
+    height: 60%;
+}
+
+
+.label_fields {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.input_fields {
+    width: 100%;
+    height: 49px;
+    background: #f2f2f2;
+    color: #333;
+    border: 0 solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    margin-top: 4%;
+}
+
+.input_fields > input {
+    width: 85%;
+    height: 100%;
+    background-color: transparent;
+    border:  0 solid #fff;
+}
+
+.submit {
+    width: 100%;
+    border: 1px solid black;
+    height: 49px;
+    color: #fa824c;
+    border: 0 solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    margin-top: 4%;
+    background-color: #fec;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.right2 > a {
+    text-decoration: none;
+
+}
+
+
+@media only screen and (max-width: 1250px) {
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+}
+

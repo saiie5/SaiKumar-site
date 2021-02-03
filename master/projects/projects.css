@@ -41,6 +41,9 @@ nav h1{
     margin-left: 10px;
     
 }
+strong{
+    background-color:white;
+}
 button{
     border-radius: 10px;
     padding: 10px;
